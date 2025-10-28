@@ -4,6 +4,7 @@ const nextConfig: NextConfig = {
   /* config options here */
   output: "export", // <=== enables static exports
   reactStrictMode: true,
+  basePath: "/github-test",
 };
 
 export default nextConfig;
